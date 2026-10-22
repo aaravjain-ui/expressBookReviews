@@ -1,0 +1,12 @@
+C:\Users\navin\OneDrive\Desktop\sample\expressBookReviews>curl.exe -i -X POST "http://localhost:5000/customer/login" -H "Content-Type: application/json" -d "{\"username\":\"reader01\",\"password\":\"BookPass123!\"}" -c cookies.txt
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 237
+ETag: W/"ed-d6cn2YGfUO9N3enSWXD0GEJoIZI"
+Set-Cookie: connect.sid=s%3Awe6qxaCV0cHkPF06WsmwXj-W8UsAWqTo.QtUCSu9wMktoK8MeEOynpB%2Bx8SVZJFRfWHZ%2FldcXwzA; Path=/; HttpOnly
+Date: Thu, 22 Oct 2026 17:07:05 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{"message":"User successfully logged in","username":"reader01","accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJlYWRlcjAxIiwiaWF0IjoxNzkyNjg4ODI1LCJleHAiOjE3OTI2OTI0MjV9.wV7vAx7hRW7Po1eo_gRaoaIDZJj7_Fs3osp805i5UmU"}

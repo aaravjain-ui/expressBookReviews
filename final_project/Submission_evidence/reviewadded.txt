@@ -1,0 +1,11 @@
+C:\Users\navin\OneDrive\Desktop\sample\expressBookReviews>curl.exe -i -X PUT "http://localhost:5000/customer/auth/review/1" -H "Content-Type: application/json" -b cookies.txt -d "{\"review\":\"A very enjoyable book with clear storytelling.\"}"
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 141
+ETag: W/"8d-YmD68EpDvsRBy778gkBvoT19p44"
+Date: Thu, 22 Oct 2026 17:09:33 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{"message":"Review added or updated successfully","isbn":"1","username":"reader01","review":"A very enjoyable book with clear storytelling."}
